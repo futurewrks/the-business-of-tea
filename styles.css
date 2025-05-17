@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 6rem 2rem;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero h1 span {
+    color: #2e7d32; /* Green accent */
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: #666;
+}
+
+.hero-ctas {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.primary-cta, .secondary-cta {
+    padding: 0.75rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.primary-cta {
+    background: #2e7d32;
+    color: #fff;
+}
+
+.primary-cta:hover {
+    background: #1b5e20;
+}
+
+.secondary-cta {
+    background: transparent;
+    color: #2e7d32;
+    border: 2px solid #2e7d32;
+}
+
+.secondary-cta:hover {
+    background: #2e7d32;
+    color: #fff;
+}
+
+.hero-bg img {
+    max-width: 300px;
+    margin-top: 2rem;
+}
+
+/* What We Offer */
+.offerings {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #fff;
+}
+
+.offerings h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.pillars {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pillar {
+    flex: 1;
+    max-width: 300px;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pillar img {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+.pillar h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.pillar p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.pillar a {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.pillar a:hover {
+    text-decoration: underline;
+}
+
+/* Lead Magnet */
+.lead-magnet {
+    background: #2e7d32;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.lead-magnet h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.lead-magnet p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.lead-magnet form {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.lead-magnet input {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 1rem;
+}
+
+.lead-magnet button {
+    background: #fff;
+    color: #2e7d32;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.lead-magnet button:hover {
+    background: #e0e0e0;
+}
+
+.lead-magnet small {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Directory */
+.directory {
+    padding: 2rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.listings {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.listing {
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.listing h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.listing p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.directory-cta {
+    padding: 0.75rem 2rem;
+    background: #2e7d32;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.directory-cta:hover {
+    background: #1b5e20;
+}
+
+/* Insights and Advertise */
+.insights-advertise {
+    display: flex;
+    flex-wrap: wrap;
+    background: #f9f9f9;
+    padding: 2rem;
+}
+
+.insights, .advertise {
+    flex: 1;
+    min-width: 300px;
+    padding: 2rem;
+}
+
+.insights h2, .advertise h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.insights ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.insights li {
+    margin: 0.5rem 0;
+}
+
+.insights li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.insights li a:hover {
+    color: #2e7d32;
+}
+
+.insights-cta {
+    color: #2e7d32;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.insights-cta:hover {
+    text-decoration: underline;
+}
+
+.advertise p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.founder-photo {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}

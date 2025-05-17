@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Business of Tea</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Build, Sell & Scale <br>in the <span>World of Tea.</span></h1>
+        <p>The first platform for tea, herb, and spice professionals—co-packers, buyers, consultants, creators—built to help you grow your B2B business smarter.</p>
+        <div class="hero-ctas">
+            <a href="#" class="primary-cta">Download: Top 10 Mistakes Tea Brands Make</a>
+            <a href="#" class="secondary-cta">Explore Our Directory</a>
+        </div>
+        <div class="hero-bg">
+            <!-- Placeholder for background illustration -->
+            <img src="tea-business-bg.png" alt="Tea Business Illustration">
+        </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section class="offerings">
+        <h2>What We Offer</h2>
+        <div class="pillars">
+            <div class="pillar">
+                <img src="directory-icon.png" alt="Directory Icon">
+                <h3>Directory</h3>
+                <p>Find vetted co-packers, equipment suppliers, and service providers across tea, herbs, and spices.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="pillar">
+                <img src="services-icon.png" alt="Services Icon">
+                <h3>Services & Tools</h3>
+                <p>From pitch decks to foodservice playbooks, we help you go to market faster—and smarter.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="pillar">
+                <img src="insights-icon.png" alt="Insights Icon">
+                <h3>Insights</h3>
+                <p>Market trends, founder interviews, B2B guides, and real-world case studies.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lead Magnet -->
+    <section class="lead-magnet">
+        <h2>Get Started Today—Free</h2>
+        <p>Get our 2025 Tea Co-Packer Directory, Foodservice Sales Playbook, and more.</p>
+        <form>
+            <input type="email" placeholder="Email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <small>No spam. Just useful B2B tea insights.</small>
+    </section>
+
+    <!-- Featured Directory -->
+    <section class="directory">
+        <div class="listings">
+            <div class="listing">
+                <h4>Blue Ocean Tea</h4>
+                <p>Canada—Pyramid Bags</p>
+            </div>
+            <div class="listing">
+                <h4>Heritage Tea</h4>
+                <p>Sri Lanka—Bulk & Packaged</p>
+            </div>
+            <div class="listing">
+                <h4>Aiya Matcha</h4>
+                <p>Japan—Matcha Supply</p>
+            </div>
+            <div class="listing">
+                <h4>StickPackCo</h4>
+                <p>USA—Stick Packs & Fulfillment</p>
+            </div>
+        </div>
+        <a href="#" class="directory-cta">See Full Directory</a>
+    </section>
+
+    <!-- Insights and Advertise -->
+    <section class="insights-advertise">
+        <div class="insights">
+            <h2>Latest Insights</h2>
+            <ul>
+                <li><a href="#">How to Build a Tea Brand in 2025</a></li>
+                <li><a href="#">Why Foodservice Is the New Growth Engine for Iced Tea</a></li>
+                <li><a href="#">Interview with Co-Packer CEO: "Scaling from 50K to 5M Bags"</a></li>
+                <li><a href="#">5 Equipment Mistakes That Kill Your Margins</a></li>
+            </ul>
+            <a href="#" class="insights-cta">View All Insights</a>
+        </div>
+        <div class="advertise">
+            <h2>Advertise with us.</h2>
+            <p>Created by the tea professionals, for tea professionals.</p>
+            <img src="founder-photo.jpg" alt="Founder Photo" class="founder-photo">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
