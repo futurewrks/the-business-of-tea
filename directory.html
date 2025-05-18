@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory - The Business of Tea</title>
+    <link rel="stylesheet" href="directory-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header (Sticky Navigation Bar) -->
+    <header class="sticky">
+        <div class="logo">The Business of Tea</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Marketplace</a></li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta-button">Join the Insider List</a>
+    </header>
+
+    <!-- Directory Hero Section -->
+    <section class="directory-hero">
+        <h1>Find Your Tea Industry Partners</h1>
+        <p>Explore vetted co-packers, equipment suppliers, and service providers for tea, herbs, and spices.</p>
+        <div class="directory-hero-bg">
+            <img src="tea-business-bg.png" alt="Tea Business Illustration">
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="filters">
+        <h2>Filter Providers</h2>
+        <div class="filter-options">
+            <select id="format-filter">
+                <option value="">Format</option>
+                <option value="pyramid-bags">Pyramid Bags</option>
+                <option value="bulk-packaged">Bulk & Packaged</option>
+                <option value="matcha-supply">Matcha Supply</option>
+                <option value="stick-packs">Stick Packs</option>
+            </select>
+            <select id="certs-filter">
+                <option value="">Certifications</option>
+                <option value="organic">Organic</option>
+                <option value="fair-trade">Fair Trade</option>
+                <option value="kosher">Kosher</option>
+            </select>
+            <select id="region-filter">
+                <option value="">Region</option>
+                <option value="canada">Canada</option>
+                <option value="sri-lanka">Sri Lanka</option>
+                <option value="japan">Japan</option>
+                <option value="usa">USA</option>
+            </select>
+            <select id="moq-filter">
+                <option value="">MOQ</option>
+                <option value="low">Low (Under 10K)</option>
+                <option value="medium">Medium (10K-50K)</option>
+                <option value="high">High (50K+)</option>
+            </select>
+            <button id="clear-filters">Clear Filters</button>
+        </div>
+    </section>
+
+    <!-- Directory Listings -->
+    <section class="directory-listings">
+        <h2>Directory Listings</h2>
+        <div class="listings" id="listings">
+            <div class="listing" data-format="pyramid-bags" data-certs="organic" data-region="canada" data-moq="medium">
+                <img src="directory-icon.png" alt="Directory Icon" class="listing-icon">
+                <h3>Blue Ocean Tea</h3>
+                <p>Canada - Pyramid Bags</p>
+                <p>Certifications: Organic</p>
+                <p>MOQ: Medium (10K-50K)</p>
+                <a href="#" class="listing-cta">Contact Provider</a>
+            </div>
+            <div class="listing" data-format="bulk-packaged" data-certs="fair-trade" data-region="sri-lanka" data-moq="high">
+                <img src="directory-icon.png" alt="Directory Icon" class="listing-icon">
+                <h3>Heritage Tea</h3>
+                <p>Sri Lanka - Bulk & Packaged</p>
+                <p>Certifications: Fair Trade</p>
+                <p>MOQ: High (50K+)</p>
+                <a href="#" class="listing-cta">Contact Provider</a>
+            </div>
+            <div class="listing" data-format="matcha-supply" data-certs="kosher" data-region="japan" data-moq="low">
+                <img src="directory-icon.png" alt="Directory Icon" class="listing-icon">
+                <h3>Aiya Matcha</h3>
+                <p>Japan - Matcha Supply</p>
+                <p>Certifications: Kosher</p>
+                <p>MOQ: Low
